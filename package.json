@@ -1,0 +1,22 @@
+{
+  "name": "supermoon",
+  "version": "0.1.0",
+  "description": "Caching NPM client.",
+  "main": "supermoon.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/lxe/supermoon.git"
+  },
+  "keywords": [
+    "npm",
+    "registry",
+    "client",
+    "proxy",
+    "cache"
+  ],
+  "author": "Aleksey Smolenchuk <lxe@lxe.co>",
+  "license": "ISC"
+}
