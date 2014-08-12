@@ -24,7 +24,5 @@ command = (commands.filter(function (c) {
 if (!command) return usage();
 
 if (command === 'install') {
-  supermoon.install(packages, argv, function () {
-    console.log('done!');
-  });
+  supermoon.install(packages, argv);
 }

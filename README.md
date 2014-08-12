@@ -20,6 +20,7 @@ You should use it if you:
  - Always delete your node_modules and hate waiting for `npm install` to finish.
 
 ## Changelog
+ - *v0.2.2* - bug fixes
  - *v0.2.1* - bug fixes
  - *v0.2.0*
    - Ability to install dependencies from non-registry URIs (ssh/http/etc..)
