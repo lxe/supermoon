@@ -1,6 +1,6 @@
 # Supermoon (spm)
 
-WARNING: This is a work (of art) in progress. Please don't use.
+ > WARNING: This is a work (of art) in progress. Please don't use in production.
 
 A hacky, cached top-level npm package installer. Hopefully to become a less hacky npm client. 
 
