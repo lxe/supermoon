@@ -8,7 +8,7 @@ Supermoon installs your dependencies in a golbally configured directory, and the
 
 ## How is this different from `npm install -g`?
 
-I don't know.
+Installing packages globally only allows you to install one version of a package on your system. Supermoon cache holds as many versions as needed.
 
 ## Installation
 ```
