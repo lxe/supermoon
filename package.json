@@ -1,6 +1,6 @@
 {
   "name": "supermoon",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Caching NPM client.",
   "main": "supermoon.js",
   "scripts": {
