@@ -10,6 +10,26 @@ Supermoon installs your dependencies in a golbally configured directory, and the
 
 Installing packages globally only allows you to install one version of a package on your system. Supermoon cache holds as many versions as needed.
 
+## Why should I use it?
+
+You should use it if you:
+
+ - Don't care about sub-dependency versions
+ - Don't care about shrinkwrap
+ - Don't care about publishing packages to a registry
+ - Always delete your node_modules and hate waiting for `npm install` to finish.
+
+## Changelog
+ - *v0.2.0*
+   - Ability to install dependencies from non-registry URIs (ssh/http/etc..)
+
+ - *v0.1.1* - bug fixes
+ - *v0.1.0* - initial release
+
+## TODOs
+ - Multiple registries
+ - Decouple npm from process.spawn (use programmatically)
+
 ## Installation
 ```
 npm install -g supermoon
