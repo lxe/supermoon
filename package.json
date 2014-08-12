@@ -4,7 +4,7 @@
   "description": "Caching NPM client.",
   "main": "supermoon.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test --timeout=30000 --reportper=spec"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,20 @@
     "cache"
   ],
   "author": "Aleksey Smolenchuk <lxe@lxe.co>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "minimist": "^1.1.0",
+    "mkdirp": "^0.5.0",
+    "mocha": "^1.21.4",
+    "rc": "^0.5.0",
+    "request": "^2.40.0",
+    "rimraf": "^2.2.8",
+    "semver": "^3.0.1",
+    "should": "^4.0.4"
+  },
+  "bin": {
+    "supermoon": "./cli.js",
+    "spm": "./cli.js"
+  }
 }

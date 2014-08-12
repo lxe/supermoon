@@ -1,0 +1,11 @@
+{
+  "name": "example-package",
+  "version": "0.1.0",
+  "description": "A thing to test things with.",
+  "dependencies": {
+    "rimraf": "^2.2.8"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.0"
+  }
+}
