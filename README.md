@@ -33,6 +33,7 @@ You should use it if you:
  - Better error handling
  - Multiple registries
  - Decouple npm from process.spawn or even remove altogether
+ - Cache and detect cached sub-dependencies
 
 ## Installation
 ```
