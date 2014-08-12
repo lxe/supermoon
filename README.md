@@ -2,7 +2,7 @@
 
  > WARNING: This is a work (of art) in progress. Please don't use in production.
 
-A hacky, cached top-level npm package installer. Hopefully to become a less hacky npm client. 
+A cached top-level npm package installer. Makes `npm install`ing your dependencies super-fast! Hopefully to become a less hacky npm client. 
 
 Supermoon installs your dependencies in a golbally configured directory, and then links the appropriate versions to your local `node_modules`.
 
