@@ -24,5 +24,10 @@ command = (commands.filter(function (c) {
 if (!command) return usage();
 
 if (command === 'install') {
-  supermoon.install(packages, argv);
+  var start = process.hrtime();
+  supermoon.install(packages, argv, function () {
+    var end = process.hrtime(start);
+    end = end[0] * 1E3 + end[1] / 1E6;
+    console.log('Done in %s ms!', end.toFixed(3));
+  });
 }

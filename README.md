@@ -21,6 +21,10 @@ You should use it if you:
 
 ## Changelog
 
+- *v0.2.4* - bug fixes: 
+  - fixed semver verification for packages downloaded from both registry and non-registry sources
+  - performing cleanup upon initialization, and no longer intercepting uncaughtExceptions
+  - color npm output!
 - *v0.2.3* - bug fix: installing devDependencies
 - *v0.2.2* - bug fixes
 - *v0.2.1* - bug fixes
