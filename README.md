@@ -20,20 +20,30 @@ You should use it if you:
  - Always delete your node_modules and hate waiting for `npm install` to finish.
 
 ## Changelog
+
 - *v0.3.0* 
   - properly installing binary links to node_modules/.bin
   - changed url encoding scheme for non-registry package versions
-  
-- *v0.2.4* - bug fixes: 
+
+- *v0.2.4*
   - fixed semver verification for packages downloaded from both registry and non-registry sources
   - performing cleanup upon initialization, and no longer intercepting uncaughtExceptions
   - color npm output!
+
 - *v0.2.3* - bug fix: installing devDependencies
+
 - *v0.2.2* - bug fixes
+
 - *v0.2.1* - bug fixes
-- *v0.2.0* - Ability to install dependencies from non-registry URIs (ssh/http/etc..)
+
+- *v0.2.0*
+  - Ability to install dependencies from non-registry URIs (ssh/http/etc..)
+
 - *v0.1.1* - bug fixes
+
 - *v0.1.0* - initial release
+
+
 
 ## TODOs
 
