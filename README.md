@@ -21,6 +21,9 @@ You should use it if you:
 
 ## Changelog
 
+- *v0.3.1*
+  - linking package fix. (I really need to write tests for this thing).
+
 - *v0.3.0* 
   - properly installing binary links to node_modules/.bin
   - changed url encoding scheme for non-registry package versions
