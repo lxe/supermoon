@@ -20,7 +20,10 @@ You should use it if you:
  - Always delete your node_modules and hate waiting for `npm install` to finish.
 
 ## Changelog
-
+- *v0.3.0* 
+  - properly installing binary links to node_modules/.bin
+  - changed url encoding scheme for non-registry package versions
+  
 - *v0.2.4* - bug fixes: 
   - fixed semver verification for packages downloaded from both registry and non-registry sources
   - performing cleanup upon initialization, and no longer intercepting uncaughtExceptions
