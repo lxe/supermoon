@@ -6,9 +6,9 @@ A cached top-level npm package installer. Makes `npm install`ing your dependenci
 
 Supermoon installs your dependencies in a golbally configured directory, and then links the appropriate versions to your local `node_modules`.
 
-## How is this different from `npm install -g`?
+## How is this different from `npm link` or `npm install -g`?
 
-Installing packages globally only allows you to install one version of a package on your system. Supermoon cache holds as many versions as needed.
+Installing or linking packages globally only allows you to install one version of a package on your system. Supermoon cache holds as many versions as needed.
 
 ## Why should I use it?
 
