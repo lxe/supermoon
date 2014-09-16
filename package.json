@@ -1,6 +1,6 @@
 {
   "name": "supermoon",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "description": "Caching NPM client.",
   "main": "supermoon.js",
   "scripts": {
@@ -8,7 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/lxe/supermoon.git"
+    "url": "https://github.com/lxe/supermoon.git"
+  },
+  "homepage": "https://github.com/lxe/supermoon",
+  "bugs": {
+    "url": "https://github.com/lxe/lxe/issues",
+    "email": "lxe@lxe.co"
   },
   "keywords": [
     "npm",

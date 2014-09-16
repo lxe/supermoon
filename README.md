@@ -2,7 +2,7 @@
 
  > WARNING: This is a work (of art) in progress. Please don't use in production.
 
-A cached top-level npm package installer. Makes `npm install`ing your dependencies super-fast! Hopefully to become a less hacky npm client. 
+A cached top-level npm package installer. Makes `npm install`ing your dependencies super-fast! Hopefully to become a less hacky npm client.
 
 Supermoon installs your dependencies in a golbally configured directory, and then links the appropriate versions to your local `node_modules`.
 
@@ -45,13 +45,20 @@ Supermoon will install and cache your top-level dependencies.
 
 ## Changelog
 
+- *v1.0.0*
+  - 1-oh? why not?!
+  - bugfix: make sure fail() is only called once
+  - add async concurrency limiter and cprf
+  - using ~/.npmrc default registry
+  - add long stack traces
+
 - *v0.3.2*
   - No longer linking by default. Copying instead (slower). Use `--link=true` to link.
 
 - *v0.3.1*
   - linking package fix. (I really need to write tests for this thing).
 
-- *v0.3.0* 
+- *v0.3.0*
   - properly installing binary links to node_modules/.bin
   - changed url encoding scheme for non-registry package versions
 
