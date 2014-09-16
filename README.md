@@ -19,7 +19,34 @@ You should use it if you:
  - Don't care about publishing packages to a registry
  - Always delete your node_modules and hate waiting for `npm install` to finish.
 
+## Installation
+```
+npm install -g supermoon
+```
+
+## Usage
+Currently all supermoon does is installs the top-level dependencies in your `package.json`. Instead of running `npm install` in your node project, run:
+
+```
+spm install
+```
+
+instead.
+
+Supermoon will install and cache your top-level dependencies.
+
+## Configuration
+`~/.supermoonrc.json`:
+
+ - `registry` - npm registry to use. Is not used at this point.
+ - `tmpdir` - temp staging directory to termporary install pacakges and other artifacts. (default is `~/.supermoon/tmp`)
+ - `cachedir` - dir to hold the local package repository. (default is `~/.supermoon/packages`)
+ - `link` - set to true if you would like to symlink the packages out of the cache to your project's node_modules folder instead of copying them.
+
 ## Changelog
+
+- *v0.3.2*
+  - No longer linking by default. Copying instead (slower). Use `--link=true` to link.
 
 - *v0.3.1*
   - linking package fix. (I really need to write tests for this thing).
@@ -46,8 +73,6 @@ You should use it if you:
 
 - *v0.1.0* - initial release
 
-
-
 ## TODOs
 
  - Tests!
@@ -56,28 +81,6 @@ You should use it if you:
  - Decouple npm from process.spawn or even remove altogether
  - Cache and detect cached sub-dependencies
 
-## Installation
-```
-npm install -g supermoon
-```
-
-## Usage
-Currently all supermoon does is installs the top-level dependencies in your `package.json`. Instead of running `npm install` in your node project, run:
-
-```
-spm install
-```
-
-instead.
-
-Supermoon will install and cache your top-level dependencies.
-
-## Configuration
-`~/.supermoonrc.json`:
-
- - `registry` - npm registry to use. Is not used at this point.
- - `tmpdir` - temp staging directory to termporary install pacakges and other artifacts. (default is `~/.supermoon/tmp`)
- - `cachedir` - dir to hold the local package repository. (default is `~/.supermoon/packages`)
 
 ## LICENSE
 
