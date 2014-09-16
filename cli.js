@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+require('long-stack-traces');
+
 var supermoon = require('./lib/supermoon');
 var pkg = require('./package.json');
 
