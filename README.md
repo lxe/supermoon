@@ -45,6 +45,9 @@ Supermoon will install and cache your top-level dependencies.
 
 ## Changelog
 
+- *v1.1.0*
+  - using graceful-fs to avoid EMFILE errors
+
 - *v1.0.0*
   - 1-oh? why not?!
   - bugfix: make sure fail() is only called once
